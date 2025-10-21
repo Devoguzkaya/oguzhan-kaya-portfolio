@@ -9,14 +9,14 @@ const Projects = () => {
   return (
     <section id="projects" className="w-full py-12 transition-colors duration-600">
       <div className="max-w-[1440px] mx-auto px-8 md:px-16">
-        <h2 className="text-4xl font-bold mb-12 text-gray-900 dark:text-white">
+        <h2 className="text-4xl font-bold mb-12 text-gray-900 dark:text-white text-left">
           {projectsData.title}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.projectsList.map((project, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg bg-white dark:bg-gray-800 transition-shadow duration-300 flex flex-col"
+              className="py-6 rounded-lg bg-white dark:bg-gray-800 transition-shadow duration-300 flex flex-col"
             >
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                 {project.name}

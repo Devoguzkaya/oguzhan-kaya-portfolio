@@ -4,8 +4,8 @@ import Skills from "./components/Skills";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <ToastContainer />
       <Header />
       <Hero />
-      <div className="max-w-[1440px] mx-auto border-t border-gray-200 dark:border-gray-700"></div>
+
       <Skills />
       <div className="max-w-[1440px] mx-auto border-t border-gray-200 dark:border-gray-700 "></div>
       <Profile />

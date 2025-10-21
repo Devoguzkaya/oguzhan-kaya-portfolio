@@ -21,14 +21,11 @@ const Profile = () => {
       className="w-full py-12 transition-colors duration-600"
     >
       <div className="max-w-[1440px] mx-auto px-8 md:px-16">
-        {/* Başlık */}
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12 pb-4">
           {profileData.title}
         </h2>
 
-        {/* İçerik Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Sol Kısım - Bilgiler */}
           <div>
             <h3 className="text-2xl font-semibold text-[#3730A3] mb-6">
               {profileData.title}
@@ -53,7 +50,6 @@ const Profile = () => {
             </div>
           </div>
 
-          {/* Sağ Kısım - About Me */}
           <div>
             <h3 className="text-2xl font-semibold text-[#3730A3] mb-6">
               {profileData.aboutMe}
@@ -66,8 +62,6 @@ const Profile = () => {
             </p>
           </div>
         </div>
-
-
       </div>
     </section>
   );

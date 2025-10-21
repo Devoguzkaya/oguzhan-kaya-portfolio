@@ -12,16 +12,14 @@ const Footer = () => {
   }
 
   return (
-    <footer className="w-full py-24 bg-[#F9F9F9] dark:bg-gray-900 transition-colors duration-500">
+    <footer className="w-full py-12 bg-[#F9F9F9] dark:bg-gray-900 transition-colors duration-500">
       <div className="max-w-[1440px] mx-auto px-8 md:px-16 flex flex-col gap-10">
-        {/* "Let's build" title */}
         <div className="text-left max-w-sm">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             {footerData.title}
           </h2>
         </div>
 
-        {/* Email and Links */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center text-sm">
           <a
             href={`mailto:${footerData.email}`}
