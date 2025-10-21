@@ -1,0 +1,65 @@
+import React, { useContext } from "react";
+import { LanguageContext } from "../contexts/LanguageContext";
+import { data } from "../data/data";
+
+const Footer = () => {
+  const { language } = useContext(LanguageContext);
+  const footerData = data[language]?.footer;
+
+  if (!footerData) {
+    console.error("Footer data not found for language:", language);
+    return null;
+  }
+
+  return (
+    <footer className="w-full py-24 bg-[#F9F9F9] dark:bg-gray-900 transition-colors duration-500">
+      <div className="max-w-[1440px] mx-auto px-8 md:px-16 flex flex-col gap-10">
+        {/* "Let's build" title */}
+        <div className="text-left max-w-sm">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            {footerData.title}
+          </h2>
+        </div>
+
+        {/* Email and Links */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center text-sm">
+          <a
+            href={`mailto:${footerData.email}`}
+            className="text-[#AF0C48] font-medium text-lg underline decoration-2 hover:text-[#b91c1c] transition-colors flex items-center gap-2 mb-4 md:mb-0"
+          >
+            👉 {footerData.email}
+          </a>
+          <div className="flex gap-4">
+            <a
+              href="https://yourblog.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text-secondary hover:text-accent transition-colors"
+            >
+              {footerData.socialLinks.blog}
+            </a>
+            <a
+              href="https://github.com/Devoguzkaya"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-600 hover:underline"
+            >
+              {footerData.socialLinks.github}
+            </a>
+
+            <a
+              href="https://linkedin.com/in/Devoguzkaya"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              {footerData.socialLinks.linkedin}
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
