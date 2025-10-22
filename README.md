@@ -1,16 +1,49 @@
-# React + Vite
+# 🧠 Oğuzhan Kaya Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React** ve **Tailwind CSS** kullanılarak geliştirilmiş modern bir kişisel portföy sitesidir.  
+Amaç, sade ve etkileyici bir tasarım üzerinden **kişisel tanıtım**, **yetenekler**, **projeler** ve **iletişim bilgilerini** profesyonel biçimde sunmaktır.
 
-Currently, two official plugins are available:
+## 🎯 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌙 Karanlık / Aydınlık mod geçişi
+- 🌍 İki dil desteği (Türkçe / İngilizce)
+- 🔔 Toastify bildirim sistemi
+- 📡 Axios API entegrasyonu (örnek form gönderimi)
+- ⚡ Tam responsive yapı (tüm cihazlarda uyumlu görünüm)
+- 🧩 React Context API ile tema ve dil yönetimi
 
-## React Compiler
+## 💡 Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React • Tailwind CSS • Axios • React Toastify • Context API
 
-## Expanding the ESLint configuration
+## ✍️ Geliştirici
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Oğuzhan Kaya**  
+Fullstack Developer  
+📧 dev.oguzhankaya@gmail.com  
+🔗 [GitHub](https://github.com/Devoguzkaya) | [LinkedIn](https://linkedin.com/in/oguzhankaya)
+
+# 🌐 Oğuzhan Kaya Portfolio
+
+This project is a **modern personal portfolio website** built with **React** and **Tailwind CSS**.  
+Its purpose is to present **personal information**, **skills**, **projects**, and **contact details** in a clean and professional layout.
+
+## 🎯 Features
+
+- 🌙 Dark / Light mode toggle
+- 🌍 Bilingual support (English / Turkish)
+- 🔔 Toastify notification system
+- 📡 Axios API integration (example form submission)
+- ⚡ Fully responsive design for all devices
+- 🧩 Context API for theme and language management
+
+## 💡 Technologies
+
+React • Tailwind CSS • Axios • React Toastify • Context API
+
+## ✍️ Developer
+
+**Oğuzhan Kaya**  
+Frontend Developer  
+📧 dev.oguzhankaya@gmail.com  
+🔗 [GitHub](https://github.com/Devoguzkaya) | [LinkedIn](https://linkedin.com/in/oguzhankaya)

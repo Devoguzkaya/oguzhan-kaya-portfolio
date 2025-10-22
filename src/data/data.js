@@ -8,8 +8,8 @@ export const data = {
 
     hero: {
       name: "Oğuzhan Kaya",
-      title: "Creative Thinker",
-      subtitle: "Minimalism Lover",
+      title: "Creative thinker",
+      subtitle: "Minimalism lover",
       description:
         "Hi, I’m Oğuzhan — a full-stack developer and 3D designer from Turkey. I build scalable, visually engaging digital products that merge creativity, logic, and technology.",
       buttonHire: "Hire Me",
@@ -136,6 +136,7 @@ export const data = {
           technologies: ["React", "Tailwind CSS", "Vite"],
           githubLink: "https://github.com/Devoguzkaya/portfolio",
           liveLink: "https://oguzhankaya.dev",
+          image: "https://picsum.photos/600/400?random=1",
         },
         {
           name: "Redux Movie App",
@@ -145,6 +146,7 @@ export const data = {
           githubLink:
             "https://github.com/Devoguzkaya/fsweb-s10g3-redux-watchlist-solution",
           liveLink: "https://redux-watchlist.vercel.app",
+          image: "https://picsum.photos/600/400?random=2",
         },
         {
           name: "AI Comics Generator",
@@ -153,6 +155,7 @@ export const data = {
           technologies: ["React", "OpenAI API", "Tailwind", "Stable Diffusion"],
           githubLink: "https://github.com/Devoguzkaya/storydiffusion",
           liveLink: "https://storydiffusion.app",
+          image: "https://picsum.photos/600/400?random=3",
         },
       ],
     },
@@ -177,10 +180,10 @@ export const data = {
 
     hero: {
       name: "Oğuzhan Kaya",
-      title: "Yaratıcı Düşünür",
-      subtitle: "Minimalist Ruhlu Geliştirici",
+      title: "Yaratıcı düşünür",
+      subtitle: "Minimalist ruhlu",
       description:
-        "Merhaba, ben Oğuzhan — Türkiye’den full-stack geliştirici ve 3D tasarımcıyım. Yaratıcılık, mantık ve teknolojiyi birleştirerek modern web projeleri geliştiriyorum.",
+        "Merhaba, ben Oğuzhan, Full-stack geliştirici ve 3D tasarımcıyım. Yaratıcılık, mantık ve teknolojiyi birleştirerek modern web projeleri geliştiriyorum.",
       buttonHire: "Teklif Al",
       buttonGithub: "Github",
       buttonLinkedin: "Linkedin",

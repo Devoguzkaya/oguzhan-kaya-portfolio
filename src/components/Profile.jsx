@@ -4,7 +4,7 @@ import { data } from "../data/data";
 
 const Profile = () => {
   const { language } = useContext(LanguageContext);
-  const profileData = data[language]?.profile || data["en"].profile;
+  const profileData = data[language]?.profile || data.en?.profile;
 
   if (!profileData) {
     console.error("❌ Profile data not found for language:", language);
@@ -18,10 +18,10 @@ const Profile = () => {
   return (
     <section
       id="profile"
-      className="w-full py-12 transition-colors duration-600"
+      className="w-full py-12 transition-colors duration-300"
     >
       <div className="max-w-[1440px] mx-auto px-8 md:px-16">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12 pb-4">
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12">
           {profileData.title}
         </h2>
 
@@ -30,23 +30,19 @@ const Profile = () => {
             <h3 className="text-2xl font-semibold text-[#3730A3] mb-6">
               {profileData.title}
             </h3>
+
             <div className="space-y-3 text-gray-700 dark:text-gray-300">
-              <div className="grid grid-cols-[160px_1fr] gap-2">
-                <p className="font-semibold">{profileData.birthDate}</p>
-                <p>{profileData.birthDateValue}</p>
-              </div>
-              <div className="grid grid-cols-[160px_1fr] gap-2">
-                <p className="font-semibold">{profileData.city}</p>
-                <p>{profileData.cityValue}</p>
-              </div>
-              <div className="grid grid-cols-[160px_1fr] gap-2">
-                <p className="font-semibold">{profileData.education}</p>
-                <p>{profileData.educationValue}</p>
-              </div>
-              <div className="grid grid-cols-[160px_1fr] gap-2">
-                <p className="font-semibold">{profileData.role}</p>
-                <p>{profileData.roleValue}</p>
-              </div>
+              {[
+                [profileData.birthDate, profileData.birthDateValue],
+                [profileData.city, profileData.cityValue],
+                [profileData.education, profileData.educationValue],
+                [profileData.role, profileData.roleValue],
+              ].map(([label, value], i) => (
+                <div key={i} className="grid grid-cols-[160px_1fr] gap-2">
+                  <p className="font-semibold">{label}</p>
+                  <p>{value}</p>
+                </div>
+              ))}
             </div>
           </div>
 

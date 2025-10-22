@@ -4,23 +4,28 @@ import { data } from "../data/data";
 
 const Skills = () => {
   const { language } = useContext(LanguageContext);
-  const skillsData = data[language].skills;
+  const skillsData = data[language]?.skills || data.en.skills;
 
   return (
-    <section id="skills" className="w-full py-12 bg-white dark:bg-gray-900">
+    <section
+      id="skills"
+      className="w-full py-20 transition-colors duration-300"
+    >
       <div className="max-w-[1440px] mx-auto px-8 md:px-16">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-16">
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12">
           {skillsData.title}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-          {skillsData.skillsList.map((skill, index) => (
-            <div key={index} className="space-y-3 text-left">
-              <h3 className="text-2xl font-semibold text-[#3730A3] hover:text-[#2d2987] transition-colors">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {skillsData.skillsList.map((skill, i) => (
+            <div
+              key={i}
+              className="p-2 rounded-md transition-all duration-300 hover:bg-gray-50 hover:dark:bg-gray-800"
+            >
+              <h3 className="text-lg font-semibold text-[#3730A3] mb-1">
                 {skill.name}
               </h3>
-
-              <p className="text-gray-600 dark:text-gray-400 text-sm max-w-[300px] leading-relaxed">
+              <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
                 {skill.description}
               </p>
             </div>
