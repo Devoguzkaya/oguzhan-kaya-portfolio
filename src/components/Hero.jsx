@@ -10,7 +10,6 @@ const Hero = () => {
 
   return (
     <section className="mt-24 max-w-[1440px] mx-auto px-8 md:px-16 py-12 flex flex-col md:flex-row items-center justify-between transition-colors duration-300">
-      {/* Sol taraf */}
       <div className="md:w-1/2 space-y-6">
         <div className="flex items-center gap-3">
           <div className="w-12 h-[1px] bg-[#3730A3]" />

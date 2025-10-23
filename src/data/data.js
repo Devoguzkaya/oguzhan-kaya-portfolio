@@ -11,7 +11,7 @@ export const data = {
       title: "Creative thinker",
       subtitle: "Minimalism lover",
       description:
-        "Hi, I’m Oğuzhan — a full-stack developer and 3D designer from Turkey. I build scalable, visually engaging digital products that merge creativity, logic, and technology.",
+        "Hi, I’m Oğuzhan. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me",
       buttonHire: "Hire Me",
       buttonGithub: "Github",
       buttonLinkedin: "Linkedin",
@@ -33,9 +33,9 @@ export const data = {
             "Component-based architecture and state management for scalable UI development.",
         },
         {
-          name: "Node.js & Express.js",
+          name: "Java (Learning)",
           description:
-            "Building REST APIs and server-side applications with clean and maintainable code.",
+            "Currently learning Java for robust backend development and enterprise solutions.",
         },
         {
           name: "MongoDB & SQL",
@@ -48,14 +48,14 @@ export const data = {
             "Designing responsive and modern UI layouts using a utility-first CSS framework.",
         },
         {
-          name: "3D Visualization & BIM",
+          name: "3D Visualization",
           description:
-            "Experienced in 3D design workflows, landscape visualization, and BIM integration.",
+            "Skilled in 3D visualization, including game content modeling with Blender, and architectural/landscape modeling using SketchUp, 3dsMax, and Lumion. Experienced in creating animations with Lumion.",
         },
         {
-          name: "AI Integration",
+          name: "PHP (Basic)",
           description:
-            "Developing AI-powered tools using OpenAI APIs, Stable Diffusion, and automation platforms.",
+            "Basic understanding of PHP for server-side scripting and web development.",
         },
         {
           name: "Version Control",
@@ -89,17 +89,12 @@ export const data = {
         {
           name: "Web Development",
           description:
-            "Full-stack web apps with React, Node.js, and databases — modern, fast, and scalable.",
+            "Full-stack web apps with React, Java, and databases — modern, fast, and scalable.",
         },
         {
           name: "3D Visualization",
           description:
             "Photorealistic 3D renders and animations for architecture, landscape, and product design.",
-        },
-        {
-          name: "AI-Powered Projects",
-          description:
-            "Custom AI integrations — image generation, automation flows, and intelligent app concepts.",
         },
         {
           name: "UI / UX Design",
@@ -115,13 +110,13 @@ export const data = {
       aboutMeText1:
         "I was born in Sinop, Turkey. Originally trained as a landscape architect, I transitioned into full-stack development to combine design and technology.",
       aboutMeText2:
-        "Currently focused on React, Node.js, and AI-driven web apps. I love building clean, efficient, and user-centered solutions.",
+        "Currently focused on React, learning Java, and AI-driven web apps. I love building clean, efficient, and user-centered solutions.",
       birthDate: "Birth Date",
       birthDateValue: "24.03.1993",
       city: "City",
       cityValue: "Sinop",
       education: "Education",
-      educationValue: "Hacettepe University, Landscape Architecture, 2016",
+      educationValue: "Okan University, Urban Design and Landscape Architecture, 2016; Sinop University, Computer Programming, 2023",
       role: "Role",
       roleValue: "Full-Stack Developer",
     },
@@ -130,13 +125,22 @@ export const data = {
       title: "Projects",
       projectsList: [
         {
+          name: "Pizza Order App",
+          description:
+            "A responsive pizza ordering application built during a sprint, featuring dynamic menu, order customization, and custom form validation using React hooks.",
+          technologies: ["React", "Tailwind CSS", "Cypress"],
+          githubLink: "https://github.com/Devoguzkaya/wit-sprint8-pizza-app",
+          liveLink: "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
+          image: "/images/pizza.png",
+        },
+        {
           name: "Personal Portfolio",
           description:
-            "A responsive React portfolio showcasing my skills and projects, built with Tailwind CSS and Vite.",
-          technologies: ["React", "Tailwind CSS", "Vite"],
-          githubLink: "https://github.com/Devoguzkaya/portfolio",
+            "This responsive React portfolio showcases my skills and projects, built with React, Tailwind CSS, and Vite. It features multi-language support, dark mode, and dynamic content loading.",
+          technologies: ["React", "Tailwind CSS", "Toastify", "Context API"],
+          githubLink: "https://github.com/Devoguzkaya/oguzhan-kaya-portfolio",
           liveLink: "https://oguzhankaya.dev",
-          image: "https://picsum.photos/600/400?random=1",
+          image: "/images/Oguzhan_portfolio.png",
         },
         {
           name: "Redux Movie App",
@@ -147,15 +151,6 @@ export const data = {
             "https://github.com/Devoguzkaya/fsweb-s10g3-redux-watchlist-solution",
           liveLink: "https://redux-watchlist.vercel.app",
           image: "https://picsum.photos/600/400?random=2",
-        },
-        {
-          name: "AI Comics Generator",
-          description:
-            "An AI-powered app that creates story-based comic panels using Stable Diffusion and StoryDiffusion.",
-          technologies: ["React", "OpenAI API", "Tailwind", "Stable Diffusion"],
-          githubLink: "https://github.com/Devoguzkaya/storydiffusion",
-          liveLink: "https://storydiffusion.app",
-          image: "https://picsum.photos/600/400?random=3",
         },
       ],
     },
@@ -183,7 +178,7 @@ export const data = {
       title: "Yaratıcı düşünür",
       subtitle: "Minimalist ruhlu",
       description:
-        "Merhaba, ben Oğuzhan, Full-stack geliştirici ve 3D tasarımcıyım. Yaratıcılık, mantık ve teknolojiyi birleştirerek modern web projeleri geliştiriyorum.",
+        "Merhaba, ben Oğuzhan. Full-stack geliştiriciyim. Güçlü bir altyapıyı, kullanıcıya keyif veren sade ve ölçeklenebilir arayüzlerle buluşturmayı seviyorum. Eğer hem teknik hem estetik düşünebilen bir geliştirici arıyorsan, tanışalım.",
       buttonHire: "Teklif Al",
       buttonGithub: "Github",
       buttonLinkedin: "Linkedin",
@@ -205,9 +200,9 @@ export const data = {
             "Bileşen tabanlı yapı ve state yönetimiyle ölçeklenebilir kullanıcı arayüzleri geliştirme.",
         },
         {
-          name: "Node.js & Express.js",
+          name: "Java (Öğreniyorum)",
           description:
-            "Performanslı ve sürdürülebilir backend API’leri oluşturma.",
+            "Sağlam backend geliştirme ve kurumsal çözümler için Java öğreniyorum.",
         },
         {
           name: "MongoDB & SQL",
@@ -219,22 +214,21 @@ export const data = {
           description:
             "Utility-first yaklaşımıyla responsive ve modern arayüz tasarımı.",
         },
-        {
-          name: "3D Görselleştirme & BIM",
-          description:
-            "Mimari ve peyzaj tasarımlarında fotogerçekçi görselleştirme ve BIM tabanlı üretim deneyimi.",
-        },
-        {
-          name: "Yapay Zeka Entegrasyonu",
-          description:
-            "OpenAI, Stable Diffusion ve otomasyon sistemleriyle AI destekli uygulama geliştirme.",
-        },
-        {
-          name: "Versiyon Kontrol",
-          description:
-            "Git, GitHub ve CI/CD araçlarıyla düzenli geliştirme süreçleri yürütme.",
-        },
-      ],
+                {
+                  name: "3D Görselleştirme",
+                  description:
+                    "Blender ile oyun içerikleri modelleme, SketchUp, 3dsMax ve Lumion ile mimari ve peyzaj modellemeleri konusunda yetenekliyim. Lumion'da animasyonlar hazırlama deneyimine sahibim.",
+                },
+                {
+                  name: "PHP (Temel)",
+                  description:
+                    "Sunucu taraflı betik ve web geliştirme için temel PHP bilgisi.",
+                },
+                {
+                name: "Versiyon Kontrol",
+                  description:
+                    "Git, GitHub ve CI/CD araçlarıyla düzenli geliştirme süreçleri yürütme.",
+                },      ],
     },
 
     tools: {
@@ -261,17 +255,12 @@ export const data = {
         {
           name: "Web Geliştirme",
           description:
-            "React, Node.js ve veritabanı teknolojileriyle modern, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum.",
+            "React, Java ve veritabanı teknolojileriyle modern, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum.",
         },
         {
           name: "3D Görselleştirme",
           description:
             "Mimari, peyzaj ve ürün tasarımları için fotogerçekçi renderlar ve animasyonlar hazırlıyorum.",
-        },
-        {
-          name: "Yapay Zeka Tabanlı Projeler",
-          description:
-            "Otomasyon, görsel üretim ve yapay zeka destekli dijital çözümler geliştiriyorum.",
         },
         {
           name: "UI / UX Tasarım",
@@ -287,13 +276,13 @@ export const data = {
       aboutMeText1:
         "Sinop doğumluyum. Peyzaj mimarlığı geçmişimle tasarım ve yazılımı birleştirerek yaratıcı dijital projeler geliştiriyorum.",
       aboutMeText2:
-        "React, Node.js ve yapay zeka destekli web projelerine odaklanıyorum. Temiz kod, kullanıcı deneyimi ve ölçeklenebilirlik benim için öncelikli.",
+        "React, Java öğrenimi ve yapay zeka destekli web projelerine odaklanıyorum. Temiz kod, kullanıcı deneyimi ve ölçeklenebilirlik benim için öncelikli.",
       birthDate: "Doğum Tarihi",
       birthDateValue: "24.03.1993",
       city: "İkamet Şehri",
       cityValue: "Sinop",
       education: "Eğitim Durumu",
-      educationValue: "Hacettepe Üniversitesi, Peyzaj Mimarlığı, 2016",
+      educationValue: "Okan Üniversitesi, Kentsel Tasarım ve Peyzaj Mimarisi, 2016; Sinop Üniversitesi, Bilgisayar Programcılığı, 2023",
       role: "Rol",
       roleValue: "Full-Stack Geliştirici",
     },
@@ -302,12 +291,22 @@ export const data = {
       title: "Projeler",
       projectsList: [
         {
+          name: "Pizza Sipariş Uygulaması",
+          description:
+            "Sprint sırasında geliştirilen, dinamik menü, sipariş özelleştirme ve React hook'ları kullanarak özel form doğrulama özelliklerine sahip, duyarlı bir pizza sipariş uygulaması.",
+          technologies: ["React", "Tailwind CSS", "Cypress"],
+          githubLink: "https://github.com/Devoguzkaya/wit-sprint8-pizza-app",
+          liveLink: "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
+          image: "/images/pizza.png",
+        },
+        {
           name: "Kişisel Portfolyo",
           description:
-            "React ve Tailwind CSS ile hazırlanmış, tüm cihazlara uyumlu kişisel portfolyo sitesi.",
-          technologies: ["React", "Tailwind CSS", "Vite"],
-          githubLink: "https://github.com/Devoguzkaya/portfolio",
+            "Bu duyarlı React portfolyo, React, Tailwind CSS ve Vite kullanılarak geliştirildi. Çoklu dil desteği, karanlık mod ve dinamik içerik yükleme özelliklerine sahiptir.",
+          technologies: ["React", "Tailwind CSS", "Toastify", "Context API"],
+          githubLink: "https://github.com/Devoguzkaya/oguzhan-kaya-portfolio",
           liveLink: "https://oguzhankaya.dev",
+          image: "/images/Oguzhan_portfolio.png",
         },
         {
           name: "Redux Film Uygulaması",
@@ -316,15 +315,8 @@ export const data = {
           technologies: ["React", "Redux", "Axios", "Vercel"],
           githubLink:
             "https://github.com/Devoguzkaya/fsweb-s10g3-redux-watchlist-solution",
-          liveLink: "https://redux-watchlist.vercel.app",
-        },
-        {
-          name: "AI Çizgi Roman Üretici",
-          description:
-            "Stable Diffusion ve StoryDiffusion kullanarak hikaye tabanlı çizgi roman panelleri oluşturan yapay zeka projesi.",
-          technologies: ["React", "OpenAI API", "Tailwind", "Stable Diffusion"],
-          githubLink: "https://github.com/Devoguzkaya/storydiffusion",
-          liveLink: "https://storydiffusion.app",
+            liveLink: "https://redux-watchlist.vercel.app",
+          image: "https://picsum.photos/600/400?random=2",
         },
       ],
     },

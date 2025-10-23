@@ -13,7 +13,6 @@ function App() {
       <ToastContainer />
       <Header />
       <Hero />
-
       <Skills />
       <div className="max-w-[1440px] mx-auto border-t border-gray-200 dark:border-gray-700 "></div>
       <Profile />
