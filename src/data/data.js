@@ -78,29 +78,6 @@ export const data = {
         "Blender",
         "Lumion",
         "Postman",
-        "ChatGPT",
-        "n8n Automations",
-      ],
-    },
-
-    services: {
-      title: "Services",
-      list: [
-        {
-          name: "Web Development",
-          description:
-            "Full-stack web apps with React, Java, and databases — modern, fast, and scalable.",
-        },
-        {
-          name: "3D Visualization",
-          description:
-            "Photorealistic 3D renders and animations for architecture, landscape, and product design.",
-        },
-        {
-          name: "UI / UX Design",
-          description:
-            "Clean, minimalist, and intuitive user interfaces that prioritize user experience.",
-        },
       ],
     },
 
@@ -116,7 +93,8 @@ export const data = {
       city: "City",
       cityValue: "Sinop",
       education: "Education",
-      educationValue: "Okan University, Urban Design and Landscape Architecture, 2016; Sinop University, Computer Programming, 2023",
+      educationValue:
+        "Okan University, Urban Design and Landscape Architecture, 2016; Sinop University, Computer Programming, 2023",
       role: "Role",
       roleValue: "Full-Stack Developer",
     },
@@ -130,7 +108,8 @@ export const data = {
             "A responsive pizza ordering application built during a sprint, featuring dynamic menu, order customization, and custom form validation using React hooks.",
           technologies: ["React", "Tailwind CSS", "Cypress"],
           githubLink: "https://github.com/Devoguzkaya/wit-sprint8-pizza-app",
-          liveLink: "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
+          liveLink:
+            "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
           image: "/images/pizza.png",
         },
         {
@@ -139,18 +118,17 @@ export const data = {
             "This responsive React portfolio showcases my skills and projects, built with React, Tailwind CSS, and Vite. It features multi-language support, dark mode, and dynamic content loading.",
           technologies: ["React", "Tailwind CSS", "Toastify", "Context API"],
           githubLink: "https://github.com/Devoguzkaya/oguzhan-kaya-portfolio",
-          liveLink: "https://oguzhankaya.dev",
+          liveLink: "https://oguzhan-kaya-portfolio.vercel.app/",
           image: "/images/Oguzhan_portfolio.png",
         },
         {
-          name: "Redux Movie App",
+          name: "React Calculator",
           description:
-            "A movie browser app built with React, Redux, and Axios — includes dark mode and watchlist features.",
-          technologies: ["React", "Redux", "Axios", "Vercel"],
-          githubLink:
-            "https://github.com/Devoguzkaya/fsweb-s10g3-redux-watchlist-solution",
-          liveLink: "https://redux-watchlist.vercel.app",
-          image: "https://picsum.photos/600/400?random=2",
+            "A functional calculator application built with React, demonstrating state management with `useReducer` and basic arithmetic operations.",
+          technologies: ["React", "useReducer", "CSS"],
+          githubLink: "https://github.com/Devoguzkaya/react-reducer-calculator",
+          liveLink: "https://react-reducer-calculator-five.vercel.app/",
+          image: "/images/calculator.png",
         },
       ],
     },
@@ -159,9 +137,18 @@ export const data = {
       title: "Let’s build something creative together.",
       email: "dev.oguzhankaya@gmail.com",
       socialLinks: {
-        github: "Github",
-        blog: "Personal Blog",
-        linkedin: "LinkedIn",
+        github: {
+          text: "Github",
+          link: "https://github.com/Devoguzkaya",
+        },
+        blog: {
+          text: "Personal Blog",
+          link: "https://github.com/Devoguzkaya",
+        },
+        linkedin: {
+          text: "LinkedIn",
+          link: "https://www.linkedin.com/in/oğuzhan-kaya-14a39b252",
+        },
       },
     },
   },
@@ -214,21 +201,22 @@ export const data = {
           description:
             "Utility-first yaklaşımıyla responsive ve modern arayüz tasarımı.",
         },
-                {
-                  name: "3D Görselleştirme",
-                  description:
-                    "Blender ile oyun içerikleri modelleme, SketchUp, 3dsMax ve Lumion ile mimari ve peyzaj modellemeleri konusunda yetenekliyim. Lumion'da animasyonlar hazırlama deneyimine sahibim.",
-                },
-                {
-                  name: "PHP (Temel)",
-                  description:
-                    "Sunucu taraflı betik ve web geliştirme için temel PHP bilgisi.",
-                },
-                {
-                name: "Versiyon Kontrol",
-                  description:
-                    "Git, GitHub ve CI/CD araçlarıyla düzenli geliştirme süreçleri yürütme.",
-                },      ],
+        {
+          name: "3D Görselleştirme",
+          description:
+            "Blender ile oyun içerikleri modelleme, SketchUp, 3dsMax ve Lumion ile mimari ve peyzaj modellemeleri konusunda yetenekliyim. Lumion'da animasyonlar hazırlama deneyimine sahibim.",
+        },
+        {
+          name: "PHP (Temel)",
+          description:
+            "Sunucu taraflı betik ve web geliştirme için temel PHP bilgisi.",
+        },
+        {
+          name: "Versiyon Kontrol",
+          description:
+            "Git, GitHub ve CI/CD araçlarıyla düzenli geliştirme süreçleri yürütme.",
+        },
+      ],
     },
 
     tools: {
@@ -249,27 +237,6 @@ export const data = {
       ],
     },
 
-    services: {
-      title: "Hizmetler",
-      list: [
-        {
-          name: "Web Geliştirme",
-          description:
-            "React, Java ve veritabanı teknolojileriyle modern, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum.",
-        },
-        {
-          name: "3D Görselleştirme",
-          description:
-            "Mimari, peyzaj ve ürün tasarımları için fotogerçekçi renderlar ve animasyonlar hazırlıyorum.",
-        },
-        {
-          name: "UI / UX Tasarım",
-          description:
-            "Kullanıcı deneyimini merkeze alan sade, işlevsel ve estetik arayüzler tasarlıyorum.",
-        },
-      ],
-    },
-
     profile: {
       title: "Profil",
       aboutMe: "Hakkımda",
@@ -282,7 +249,8 @@ export const data = {
       city: "İkamet Şehri",
       cityValue: "Sinop",
       education: "Eğitim Durumu",
-      educationValue: "Okan Üniversitesi, Kentsel Tasarım ve Peyzaj Mimarisi, 2016; Sinop Üniversitesi, Bilgisayar Programcılığı, 2023",
+      educationValue:
+        "Okan Üniversitesi, Kentsel Tasarım ve Peyzaj Mimarisi, 2016; Sinop Üniversitesi, Bilgisayar Programcılığı, 2023",
       role: "Rol",
       roleValue: "Full-Stack Geliştirici",
     },
@@ -296,7 +264,8 @@ export const data = {
             "Sprint sırasında geliştirilen, dinamik menü, sipariş özelleştirme ve React hook'ları kullanarak özel form doğrulama özelliklerine sahip, duyarlı bir pizza sipariş uygulaması.",
           technologies: ["React", "Tailwind CSS", "Cypress"],
           githubLink: "https://github.com/Devoguzkaya/wit-sprint8-pizza-app",
-          liveLink: "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
+          liveLink:
+            "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
           image: "/images/pizza.png",
         },
         {
@@ -305,18 +274,17 @@ export const data = {
             "Bu duyarlı React portfolyo, React, Tailwind CSS ve Vite kullanılarak geliştirildi. Çoklu dil desteği, karanlık mod ve dinamik içerik yükleme özelliklerine sahiptir.",
           technologies: ["React", "Tailwind CSS", "Toastify", "Context API"],
           githubLink: "https://github.com/Devoguzkaya/oguzhan-kaya-portfolio",
-          liveLink: "https://oguzhankaya.dev",
+          liveLink: "https://oguzhan-kaya-portfolio.vercel.app/",
           image: "/images/Oguzhan_portfolio.png",
         },
         {
-          name: "Redux Film Uygulaması",
+          name: "React Hesap Makinesi",
           description:
-            "React, Redux ve Axios ile oluşturulmuş film tarayıcı. Arama, favori listesi ve karanlık mod içerir.",
-          technologies: ["React", "Redux", "Axios", "Vercel"],
-          githubLink:
-            "https://github.com/Devoguzkaya/fsweb-s10g3-redux-watchlist-solution",
-            liveLink: "https://redux-watchlist.vercel.app",
-          image: "https://picsum.photos/600/400?random=2",
+            "React ile oluşturulmuş, `useReducer` ile durum yönetimi ve temel aritmetik işlemleri gösteren işlevsel bir hesap makinesi uygulaması.",
+          technologies: ["React", "useReducer", "CSS"],
+          githubLink: "https://github.com/Devoguzkaya/react-reducer-calculator",
+          liveLink: "https://react-reducer-calculator-five.vercel.app/",
+          image: "/images/calculator.png",
         },
       ],
     },
@@ -325,9 +293,18 @@ export const data = {
       title: "Birlikte yaratıcı bir proje geliştirelim.",
       email: "dev.oguzhankaya@gmail.com",
       socialLinks: {
-        github: "Github",
-        blog: "Blog",
-        linkedin: "LinkedIn",
+        github: {
+          text: "Github",
+          link: "https://github.com/Devoguzkaya",
+        },
+        blog: {
+          text: "Blog",
+          link: "https://github.com/Devoguzkaya",
+        },
+        linkedin: {
+          text: "LinkedIn",
+          link: "https://www.linkedin.com/in/oğuzhan-kaya-14a39b252",
+        },
       },
     },
   },

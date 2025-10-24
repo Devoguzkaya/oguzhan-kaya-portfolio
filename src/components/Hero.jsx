@@ -32,13 +32,13 @@ const Hero = () => {
             onClick={() =>
               handleHireRequest(heroData.name, data[language].footer.email)
             }
-            className="bg-[#3730A3] text-white font-medium px-8 py-3 rounded-md hover:bg-[#2d2987] transition-colors duration-300"
+            className="cursor-pointer bg-[#3730A3] text-white font-medium px-8 py-3 rounded-md hover:bg-[#2d2987] transition-colors duration-300"
           >
             {heroData.buttonHire}
           </button>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/Devoguzkaya"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 border border-[#3730A3] text-[#3730A3] font-medium px-7 py-3 rounded-md hover:bg-[#3730A3] hover:text-white transition-colors duration-300"
@@ -48,7 +48,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/oğuzhan-kaya-14a39b252"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 border border-[#3730A3] text-[#3730A3] font-medium px-7 py-3 rounded-md hover:bg-[#3730A3] hover:text-white transition-colors duration-300"

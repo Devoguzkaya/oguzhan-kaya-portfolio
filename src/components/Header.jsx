@@ -84,7 +84,7 @@ export const Header = () => {
                 data[language].footer.email
               )
             }
-            className="text-sm font-medium border border-[#3730A3] text-[#3730A3] hover:bg-[#3730A3] hover:text-white px-5 py-1.5 rounded-md transition-colors duration-300"
+            className="cursor-pointer text-sm font-medium border border-[#3730A3] text-[#3730A3] hover:bg-[#3730A3] hover:text-white px-5 py-1.5 rounded-md transition-colors duration-300"
           >
             {headerData.hireMe}
           </button>

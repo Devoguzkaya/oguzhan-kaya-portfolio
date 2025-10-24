@@ -29,29 +29,29 @@ const Footer = () => {
           </a>
           <div className="flex gap-4">
             <a
-              href="https://yourblog.com"
+              href={footerData.socialLinks.blog.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-text-secondary hover:text-accent transition-colors"
+              className="text-[#0A0A14] hover:text-accent transition-colors"
             >
-              {footerData.socialLinks.blog}
+              {footerData.socialLinks.blog.text}
             </a>
             <a
-              href="https://github.com/Devoguzkaya"
+              href={footerData.socialLinks.github.link}
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-600 hover:underline"
             >
-              {footerData.socialLinks.github}
+              {footerData.socialLinks.github.text}
             </a>
 
             <a
-              href="https://linkedin.com/in/Devoguzkaya"
+              href={footerData.socialLinks.linkedin.link}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              {footerData.socialLinks.linkedin}
+              {footerData.socialLinks.linkedin.text}
             </a>
           </div>
         </div>
