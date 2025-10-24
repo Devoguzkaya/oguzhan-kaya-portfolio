@@ -26,7 +26,6 @@ const Hero = () => {
           {heroData.description}
         </p>
 
-        {/* Butonlar */}
         <div className="flex flex-wrap gap-4 pt-2">
           <button
             onClick={() =>
@@ -59,7 +58,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Sağ taraf */}
       <div className="md:w-1/2 flex justify-center md:justify-end mt-12 md:mt-0">
         <img
           src="/images/Oguzhan.png"

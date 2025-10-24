@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  // Varsayılan dil localStorage'dan alınır, yoksa 'en'
+  // Varsayılan dili localStorage'dan al, yoksa 'en'
   const [language, setLanguage] = useState(() => {
     return localStorage.getItem("language") || "en";
   });

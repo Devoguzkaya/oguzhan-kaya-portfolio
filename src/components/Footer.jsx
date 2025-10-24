@@ -32,7 +32,7 @@ const Footer = () => {
               href={footerData.socialLinks.blog.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#0A0A14] hover:text-accent transition-colors"
+              className="text-[#0A0A14] hover:text-accent transition-colors dark:text-white"
             >
               {footerData.socialLinks.blog.text}
             </a>

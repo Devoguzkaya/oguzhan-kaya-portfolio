@@ -11,11 +11,8 @@ export const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white dark:bg-gray-900 transition-colors duration-300">
-      {/* Üst Satır */}
       <div className="max-w-[1440px] mx-auto flex justify-end items-center px-8 md:px-16 py-3 text-xs font-medium text-gray-700 dark:text-gray-300">
-        {/* Tema & Dil */}
         <div className="flex items-center gap-4">
-          {/* Dark Mode */}
           <button
             onClick={toggleTheme}
             className="flex items-center gap-2 cursor-pointer select-none"
@@ -40,7 +37,6 @@ export const Header = () => {
 
           <span className="text-gray-300">|</span>
 
-          {/* Dil Değiştirici */}
           <button
             onClick={toggleLanguage}
             className="uppercase text-[11px] tracking-wide text-[#3730A3] hover:text-[#2d2987] transition-colors"
@@ -50,9 +46,7 @@ export const Header = () => {
         </div>
       </div>
 
-      {/* Alt Satır */}
       <div className="max-w-[1440px] mx-auto flex justify-between items-center px-8 md:px-16 py-3">
-        {/* Logo */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="w-9 h-9 flex items-center justify-center bg-[#EEEBFF] text-[#7B61FF] font-bold rounded-full text-lg shadow-sm rotate-30 cursor-pointer"
@@ -60,7 +54,6 @@ export const Header = () => {
           O
         </button>
 
-        {/* Menü + Buton */}
         <div className="flex items-center gap-10">
           <nav className="flex gap-10 text-sm font-medium text-gray-700 dark:text-gray-300">
             <a
