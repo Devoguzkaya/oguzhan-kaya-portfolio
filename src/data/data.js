@@ -108,8 +108,7 @@ export const data = {
             "A responsive pizza ordering application built during a sprint, featuring dynamic menu, order customization, and custom form validation using React hooks.",
           technologies: ["React", "Tailwind CSS", "Cypress"],
           githubLink: "https://github.com/Devoguzkaya/wit-sprint8-pizza-app",
-          liveLink:
-            "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
+          liveLink: "https://wit-sprint8-pizza-app.vercel.app/",
           image: "/images/pizza.png",
         },
         {
@@ -264,8 +263,7 @@ export const data = {
             "Sprint sırasında geliştirilen, dinamik menü, sipariş özelleştirme ve React hook'ları kullanarak özel form doğrulama özelliklerine sahip, duyarlı bir pizza sipariş uygulaması.",
           technologies: ["React", "Tailwind CSS", "Cypress"],
           githubLink: "https://github.com/Devoguzkaya/wit-sprint8-pizza-app",
-          liveLink:
-            "https://wit-sprint8-pizza-fip95co5z-oguzhans-projects-d34dd72a.vercel.app",
+          liveLink: "https://wit-sprint8-pizza-app.vercel.app/",
           image: "/images/pizza.png",
         },
         {
