@@ -1,49 +1,47 @@
-# 🧠 Oğuzhan Kaya Portfolio
+# Oğuzhan Kaya - Personal Portfolio
 
-Bu proje, **React** ve **Tailwind CSS** kullanılarak geliştirilmiş modern bir kişisel portföy sitesidir.  
-Amaç, sade ve etkileyici bir tasarım üzerinden **kişisel tanıtım**, **yetenekler**, **projeler** ve **iletişim bilgilerini** profesyonel biçimde sunmaktır.
+Bu proje, React ve Tailwind CSS kullanılarak geliştirilmiş modern bir kişisel portfolyo sitesidir. Amaç, kişisel tanıtım, yetenekler, projeler ve iletişim bilgilerini sade ve profesyonel bir arayüzle sunmaktır.
 
-## 🎯 Özellikler
+## Özellikler
 
-- 🌙 Karanlık / Aydınlık mod geçişi
-- 🌍 İki dil desteği (Türkçe / İngilizce)
-- 🔔 Toastify bildirim sistemi
-- 📡 Axios API entegrasyonu (örnek form gönderimi)
-- ⚡ Tam responsive yapı (tüm cihazlarda uyumlu görünüm)
-- 🧩 React Context API ile tema ve dil yönetimi
+- **Karanlık / Aydınlık Mod:** Kullanıcı tercihine göre tema değişimi.
+- **Çoklu Dil Desteği:** Türkçe ve İngilizce dil seçenekleri.
+- **Responsive Tasarım:** Tüm cihazlarda (mobil, tablet, masaüstü) uyumlu görünüm.
+- **State Yönetimi:** Context API kullanılarak tema ve dil yönetimi.
+- **Bildirimler:** Kullanıcı etkileşimleri için Toastify bildirim sistemi.
 
-## 💡 Teknolojiler
+## Teknolojiler
 
-React • Tailwind CSS • Axios • React Toastify • Context API
+React, Tailwind CSS, Axios, Context API, React Toastify
 
-## ✍️ Geliştirici
+## Geliştirici
 
-**Oğuzhan Kaya**  
-Fullstack Developer  
-📧 dev.oguzhankaya@gmail.com  
+**Oğuzhan Kaya**
+Fullstack Developer
+📧 <dev.oguzhankaya@gmail.com>
 🔗 [GitHub](https://github.com/Devoguzkaya) | [LinkedIn](https://linkedin.com/in/oguzhankaya)
 
-# 🌐 Oğuzhan Kaya Portfolio
+---
 
-This project is a **modern personal portfolio website** built with **React** and **Tailwind CSS**.  
-Its purpose is to present **personal information**, **skills**, **projects**, and **contact details** in a clean and professional layout.
+# Oğuzhan Kaya - Personal Portfolio
 
-## 🎯 Features
+This project is a modern personal portfolio website built with React and Tailwind CSS. Its primary goal is to showcase personal information, technical skills, projects, and contact details in a clean, professional layout.
 
-- 🌙 Dark / Light mode toggle
-- 🌍 Bilingual support (English / Turkish)
-- 🔔 Toastify notification system
-- 📡 Axios API integration (example form submission)
-- ⚡ Fully responsive design for all devices
-- 🧩 Context API for theme and language management
+## Features
 
-## 💡 Technologies
+- **Dark / Light Mode:** Theme toggling based on user preference.
+- **Bilingual Support:** Smooth switching between English and Turkish.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.
+- **State Management:** Theme and language settings managed via Context API.
+- **Notifications:** Integrated Toastify for feedback on user actions.
 
-React • Tailwind CSS • Axios • React Toastify • Context API
+## Technologies Used
 
-## ✍️ Developer
+React, Tailwind CSS, Axios, Context API, React Toastify
 
-**Oğuzhan Kaya**  
-Frontend Developer  
-📧 dev.oguzhankaya@gmail.com  
+## Developer
+
+**Oğuzhan Kaya**
+Fullstack Developer
+📧 <dev.oguzhankaya@gmail.com>
 🔗 [GitHub](https://github.com/Devoguzkaya) | [LinkedIn](https://linkedin.com/in/oguzhankaya)
