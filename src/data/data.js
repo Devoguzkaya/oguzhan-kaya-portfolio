@@ -103,6 +103,22 @@ export const data = {
       title: "Projects",
       projectsList: [
         {
+          name: "Twitter Clone Full Stack",
+          description:
+            "A full-stack social media application featuring secure authentication, tweet management, and real-time interactions like likes/retweets. Built with Spring Boot and React.",
+          technologies: [
+            "Java",
+            "Spring Boot",
+            "PostgreSQL",
+            "React",
+            "Tailwind CSS",
+          ],
+          githubLink: "https://github.com/Devoguzkaya/twitter-api-application",
+          liveLink:
+            "https://twitter-api-application-j7uf2s8s6-oguzhans-projects-d34dd72a.vercel.app/",
+          image: "/images/twitter-clone.png",
+        },
+        {
           name: "Pizza Order App",
           description:
             "A responsive pizza ordering application built during a sprint, featuring dynamic menu, order customization, and custom form validation using React hooks.",
@@ -257,6 +273,22 @@ export const data = {
     projects: {
       title: "Projeler",
       projectsList: [
+        {
+          name: "Twitter Klonu Full Stack",
+          description:
+            "Güvenli kimlik doğrulama, tweet yönetimi ve beğeni/retweet gibi anlık etkileşimler içeren full-stack sosyal medya uygulaması. Spring Boot ve React ile geliştirildi.",
+          technologies: [
+            "Java",
+            "Spring Boot",
+            "PostgreSQL",
+            "React",
+            "Tailwind CSS",
+          ],
+          githubLink: "https://github.com/Devoguzkaya/twitter-api-application",
+          liveLink:
+            "https://twitter-api-application-j7uf2s8s6-oguzhans-projects-d34dd72a.vercel.app/",
+          image: "/images/twitter-clone.png",
+        },
         {
           name: "Pizza Sipariş Uygulaması",
           description:
