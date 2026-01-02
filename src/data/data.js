@@ -33,14 +33,14 @@ export const data = {
             "Component-based architecture and state management for scalable UI development.",
         },
         {
-          name: "Java (Learning)",
+          name: "Java & Spring Boot",
           description:
-            "Currently learning Java for robust backend development and enterprise solutions.",
+            "Building robust, scalable backend systems and enterprise-level applications with Java and Spring Boot.",
         },
         {
-          name: "MongoDB & SQL",
+          name: "PostgreSQL & Database Design",
           description:
-            "Working with both NoSQL and relational databases for flexible data structures.",
+            "Designing efficient relational database schemas and managing data with PostgreSQL and SQL.",
         },
         {
           name: "Tailwind CSS",
@@ -48,15 +48,11 @@ export const data = {
             "Designing responsive and modern UI layouts using a utility-first CSS framework.",
         },
         {
-          name: "3D Visualization",
+          name: "Creative & 3D Design",
           description:
-            "Skilled in 3D visualization, including game content modeling with Blender, and architectural/landscape modeling using SketchUp, 3dsMax, and Lumion. Experienced in creating animations with Lumion.",
+            "Combining technical skills with creative design using Tools like Blender, SketchUp, and Lumion for 3D modeling and visualization.",
         },
-        {
-          name: "PHP (Basic)",
-          description:
-            "Basic understanding of PHP for server-side scripting and web development.",
-        },
+
         {
           name: "Version Control",
           description:
@@ -69,6 +65,7 @@ export const data = {
       title: "Tools",
       list: [
         "VS Code",
+        "IntelliJ IDEA",
         "GitHub",
         "Vercel",
         "Render",
@@ -87,7 +84,7 @@ export const data = {
       aboutMeText1:
         "I was born in Sinop, Turkey. Originally trained as a landscape architect, I transitioned into full-stack development to combine design and technology.",
       aboutMeText2:
-        "Currently focused on React, learning Java, and AI-driven web apps. I love building clean, efficient, and user-centered solutions.",
+        "Currently focused on developing scalable web applications with React and Spring Boot. I specialize in building clean, efficient, and user-centered full-stack solutions.",
       birthDate: "Birth Date",
       birthDateValue: "24.03.1993",
       city: "City",
@@ -127,15 +124,7 @@ export const data = {
           liveLink: "https://wit-sprint8-pizza-app.vercel.app/",
           image: "/images/pizza.png",
         },
-        {
-          name: "Personal Portfolio",
-          description:
-            "This responsive React portfolio showcases my skills and projects, built with React, Tailwind CSS, and Vite. It features multi-language support, dark mode, and dynamic content loading.",
-          technologies: ["React", "Tailwind CSS", "Toastify", "Context API"],
-          githubLink: "https://github.com/Devoguzkaya/oguzhan-kaya-portfolio",
-          liveLink: "https://oguzhan-kaya-portfolio.vercel.app/",
-          image: "/images/Oguzhan_portfolio.png",
-        },
+
         {
           name: "React Calculator",
           description:
@@ -202,14 +191,14 @@ export const data = {
             "Bileşen tabanlı yapı ve state yönetimiyle ölçeklenebilir kullanıcı arayüzleri geliştirme.",
         },
         {
-          name: "Java (Öğreniyorum)",
+          name: "Java & Spring Boot",
           description:
-            "Sağlam backend geliştirme ve kurumsal çözümler için Java öğreniyorum.",
+            "Java ve Spring Boot kullanarak sağlam, ölçeklenebilir backend sistemleri ve kurumsal uygulamalar geliştirme.",
         },
         {
-          name: "MongoDB & SQL",
+          name: "PostgreSQL & Database Design",
           description:
-            "NoSQL ve ilişkisel veritabanlarıyla verimli veri modelleme ve yönetimi.",
+            "PostgreSQL ve SQL ile verimli ilişkisel veritabanı şemaları tasarlama ve veri yönetimi.",
         },
         {
           name: "Tailwind CSS",
@@ -217,15 +206,11 @@ export const data = {
             "Utility-first yaklaşımıyla responsive ve modern arayüz tasarımı.",
         },
         {
-          name: "3D Görselleştirme",
+          name: "Yaratıcı & 3D Tasarım",
           description:
-            "Blender ile oyun içerikleri modelleme, SketchUp, 3dsMax ve Lumion ile mimari ve peyzaj modellemeleri konusunda yetenekliyim. Lumion'da animasyonlar hazırlama deneyimine sahibim.",
+            "Teknik becerileri yaratıcı tasarımla birleştirerek Blender, SketchUp ve Lumion gibi araçlarla 3D modelleme ve görselleştirme.",
         },
-        {
-          name: "PHP (Temel)",
-          description:
-            "Sunucu taraflı betik ve web geliştirme için temel PHP bilgisi.",
-        },
+
         {
           name: "Versiyon Kontrol",
           description:
@@ -258,7 +243,7 @@ export const data = {
       aboutMeText1:
         "Sinop doğumluyum. Peyzaj mimarlığı geçmişimle tasarım ve yazılımı birleştirerek yaratıcı dijital projeler geliştiriyorum.",
       aboutMeText2:
-        "React, Java öğrenimi ve yapay zeka destekli web projelerine odaklanıyorum. Temiz kod, kullanıcı deneyimi ve ölçeklenebilirlik benim için öncelikli.",
+        "Şu anda React ve Spring Boot ile ölçeklenebilir web uygulamaları geliştirmeye odaklanıyorum. Temiz kod, kullanıcı deneyimi ve verimli full-stack çözümler üretmek önceliğim.",
       birthDate: "Doğum Tarihi",
       birthDateValue: "24.03.1993",
       city: "İkamet Şehri",
@@ -298,15 +283,7 @@ export const data = {
           liveLink: "https://wit-sprint8-pizza-app.vercel.app/",
           image: "/images/pizza.png",
         },
-        {
-          name: "Kişisel Portfolyo",
-          description:
-            "Bu duyarlı React portfolyo, React, Tailwind CSS ve Vite kullanılarak geliştirildi. Çoklu dil desteği, karanlık mod ve dinamik içerik yükleme özelliklerine sahiptir.",
-          technologies: ["React", "Tailwind CSS", "Toastify", "Context API"],
-          githubLink: "https://github.com/Devoguzkaya/oguzhan-kaya-portfolio",
-          liveLink: "https://oguzhan-kaya-portfolio.vercel.app/",
-          image: "/images/Oguzhan_portfolio.png",
-        },
+
         {
           name: "React Hesap Makinesi",
           description:
